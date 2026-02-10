@@ -15,6 +15,9 @@ real-world file handling using modern Python tools.
 - Handles duplicate filenames safely
 - Safe to run multiple times
 - Works on Windows, macOS, and Linux
+- Includes both CLI and GUI versions
+- Simple Tkinter-based desktop interface
+
 
 ---
 
@@ -23,6 +26,7 @@ real-world file handling using modern Python tools.
 - Python 3
 - pathlib
 - shutil
+- Tkinter
 
 ---
 
@@ -55,15 +59,22 @@ TARGET_FOLDER = Path(r"C:\Path\To\Your\Folder")
 ### 4️⃣ Run the script
 python file_organizer.py
 
+### GUI Version
+```bash
+python file_organizer_gui.py
+
 
 📌 Example Use Case
 Use this script to clean up a messy Downloads or Test folder with a single command.
 
 🔮 Possible Improvements
--->Accept folder path from user input
--->Organize files by date
--->Add a GUI
--->Convert to an executable file
+- Accept folder path via user input
+- Organize files by date
+- Convert to an executable
+- Add logging
+
+## 📸 Screenshot
+![GUI Screenshot](screenshot.png)
 
 👤 Author
 Sairam V
